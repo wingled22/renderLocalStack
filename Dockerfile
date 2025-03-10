@@ -1,5 +1,5 @@
 # Use the official LocalStack image
-FROM localstack/localstack:latest
+FROM localstack/localstack-pro:latest
 
 # Set which AWS services to simulate (adding RDS and Secrets Manager)
 ENV SERVICES=s3,dynamodb,lambda,rds,secretsmanager
